@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:icon="@drawable/pen"
+        app:showAsAction="always"
+        android:id="@+id/pen"
+        android:title="@string/app_new"/>
+
+    <item
+        android:title="Обновить"
+        android:id="@+id/refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh"/>
+
+    <item
+        android:id="@+id/about_me"
+        app:showAsAction="never"
+        android:title="О разработчике"/>
+
+    <item
+        android:id="@+id/notific_set"
+        app:showAsAction="never"
+        android:title="Настройка уведомлений"/>
+
+    <item
+        android:id="@+id/change_pass"
+        app:showAsAction="never"
+        android:title="Сменить пароль"/>
+
+    <item
+        android:id="@+id/delete_all"
+        app:showAsAction="never"
+        android:title="Удалить всё"/>
+
+
+</menu>

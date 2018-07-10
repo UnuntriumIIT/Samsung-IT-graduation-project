@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dailydiary.dailydiaryalphav003.CheckStart"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_add_password"
+            android:textColor="#2d142c"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_add_password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:autoText="false"
+            android:background="#ebefef"
+            android:gravity="center"
+            android:hint="@string/app_protect"
+            android:inputType="textPassword" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/help_hint"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="#e1e6e9"
+            android:gravity="center"
+            android:hint="@string/help" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_add_password"
+            android:layout_width="262dp"
+            android:layout_height="67dp"
+            android:background="#628ca6"
+            android:requiresFadingEdge="none"
+            android:text="@string/app_button_protect"
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+</LinearLayout>

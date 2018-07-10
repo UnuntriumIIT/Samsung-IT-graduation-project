@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DailyDiary</string>
+    <string name="spp_settings">Настройки</string>
+    <string name="app_new">Добавить запись</string>
+    <string name="app_login_button">Вход</string>
+    <string name="app_login_hint">Пароль</string>
+    <string name="app_add_password">Защитите свой дневник!</string>
+    <string name="app_protect">Цифры и латинские буквы</string>
+    <string name="app_button_protect">Защитить!</string>
+    <string name="help">Придумайте подсказку</string>
+    <string name="help_btn">Забыл(а) пароль?</string>
+    <string name="add_tw_alert">ДОБАВИТЬ ЗАПИСЬ</string>
+    <string name="add_btn_alert">Готово!</string>
+    <string name="add_rating_day">ОЦЕНИТЕ СВОЙ ДЕНЬ</string>
+    <string name="alert_edit">Редактировать</string>
+    <string name="alert_delete">Удалить</string>
+    <string name="edit_tw_alert">РЕДАКТИРОВАТЬ ЗАПИСЬ</string>
+    <string name="edit_cancel">Отмена</string>
+    <string name="about_text">Здравствуйте! Спасибо, что установили мое приложение!</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+</resources>
